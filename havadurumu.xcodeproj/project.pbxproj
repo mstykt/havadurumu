@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFF64FE51DA390CC006E7771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF64FE41DA390CC006E7771 /* AppDelegate.swift */; };
+		FFF64FE71DA390CC006E7771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF64FE61DA390CC006E7771 /* ViewController.swift */; };
+		FFF64FEA1DA390CC006E7771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF64FE81DA390CC006E7771 /* Main.storyboard */; };
+		FFF64FED1DA390CC006E7771 /* havadurumu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFF64FEB1DA390CC006E7771 /* havadurumu.xcdatamodeld */; };
+		FFF64FEF1DA390CC006E7771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF64FEE1DA390CC006E7771 /* Assets.xcassets */; };
+		FFF64FF21DA390CC006E7771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF64FF01DA390CC006E7771 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFF64FE11DA390CC006E7771 /* havadurumu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = havadurumu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF64FE41DA390CC006E7771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFF64FE61DA390CC006E7771 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFF64FE91DA390CC006E7771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFF64FEC1DA390CC006E7771 /* havadurumu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = havadurumu.xcdatamodel; sourceTree = "<group>"; };
+		FFF64FEE1DA390CC006E7771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFF64FF11DA390CC006E7771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFF64FF31DA390CC006E7771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFF64FDE1DA390CC006E7771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFF64FD81DA390CC006E7771 = {
+			isa = PBXGroup;
+			children = (
+				FFF64FE31DA390CC006E7771 /* havadurumu */,
+				FFF64FE21DA390CC006E7771 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF64FE21DA390CC006E7771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF64FE11DA390CC006E7771 /* havadurumu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF64FE31DA390CC006E7771 /* havadurumu */ = {
+			isa = PBXGroup;
+			children = (
+				FFF64FE41DA390CC006E7771 /* AppDelegate.swift */,
+				FFF64FE61DA390CC006E7771 /* ViewController.swift */,
+				FFF64FE81DA390CC006E7771 /* Main.storyboard */,
+				FFF64FEE1DA390CC006E7771 /* Assets.xcassets */,
+				FFF64FF01DA390CC006E7771 /* LaunchScreen.storyboard */,
+				FFF64FF31DA390CC006E7771 /* Info.plist */,
+				FFF64FEB1DA390CC006E7771 /* havadurumu.xcdatamodeld */,
+			);
+			path = havadurumu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFF64FE01DA390CC006E7771 /* havadurumu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF64FF61DA390CC006E7771 /* Build configuration list for PBXNativeTarget "havadurumu" */;
+			buildPhases = (
+				FFF64FDD1DA390CC006E7771 /* Sources */,
+				FFF64FDE1DA390CC006E7771 /* Frameworks */,
+				FFF64FDF1DA390CC006E7771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = havadurumu;
+			productName = havadurumu;
+			productReference = FFF64FE11DA390CC006E7771 /* havadurumu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF64FD91DA390CC006E7771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Mesut;
+				TargetAttributes = {
+					FFF64FE01DA390CC006E7771 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FFF64FDC1DA390CC006E7771 /* Build configuration list for PBXProject "havadurumu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFF64FD81DA390CC006E7771;
+			productRefGroup = FFF64FE21DA390CC006E7771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFF64FE01DA390CC006E7771 /* havadurumu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFF64FDF1DA390CC006E7771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF64FF21DA390CC006E7771 /* LaunchScreen.storyboard in Resources */,
+				FFF64FEF1DA390CC006E7771 /* Assets.xcassets in Resources */,
+				FFF64FEA1DA390CC006E7771 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFF64FDD1DA390CC006E7771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF64FE71DA390CC006E7771 /* ViewController.swift in Sources */,
+				FFF64FE51DA390CC006E7771 /* AppDelegate.swift in Sources */,
+				FFF64FED1DA390CC006E7771 /* havadurumu.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFF64FE81DA390CC006E7771 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF64FE91DA390CC006E7771 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFF64FF01DA390CC006E7771 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF64FF11DA390CC006E7771 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFF64FF41DA390CC006E7771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFF64FF51DA390CC006E7771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFF64FF71DA390CC006E7771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = havadurumu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mesut.havadurumu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FFF64FF81DA390CC006E7771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = havadurumu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mesut.havadurumu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFF64FDC1DA390CC006E7771 /* Build configuration list for PBXProject "havadurumu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF64FF41DA390CC006E7771 /* Debug */,
+				FFF64FF51DA390CC006E7771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF64FF61DA390CC006E7771 /* Build configuration list for PBXNativeTarget "havadurumu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF64FF71DA390CC006E7771 /* Debug */,
+				FFF64FF81DA390CC006E7771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FFF64FEB1DA390CC006E7771 /* havadurumu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FFF64FEC1DA390CC006E7771 /* havadurumu.xcdatamodel */,
+			);
+			currentVersion = FFF64FEC1DA390CC006E7771 /* havadurumu.xcdatamodel */;
+			path = havadurumu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FFF64FD91DA390CC006E7771 /* Project object */;
+}
