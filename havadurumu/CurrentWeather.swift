@@ -80,7 +80,10 @@ class CurrentWeather {
                     }
                 }
             }
+                                                    
+                                                    
+           completed()
         }
-        completed()
+        
     }
 }
