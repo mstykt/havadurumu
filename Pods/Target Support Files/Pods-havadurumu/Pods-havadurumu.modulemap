@@ -1,0 +1,6 @@
+framework module Pods_havadurumu {
+  umbrella header "Pods-havadurumu-umbrella.h"
+
+  export *
+  module * { export * }
+}
